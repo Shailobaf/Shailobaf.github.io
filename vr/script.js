@@ -17,6 +17,8 @@ function showSlide(num) {
   }
 }
 
+
+
 function openNav() {
   document.getElementById("myNav").style.height = "100%";
   document.getElementById("sp").style.opacity = "0";
@@ -54,3 +56,11 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
